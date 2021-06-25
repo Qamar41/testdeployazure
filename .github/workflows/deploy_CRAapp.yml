@@ -2,16 +2,15 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Build and deploy Node.js app to Azure Web App - CRAapp
-
+env:
+  CI: ""
+  run: echo "$ENV_CONTEXT"
+  
 on:
   push:
     branches:
       - deploy
   workflow_dispatch:
-env:
-  CI: ""
-  run: echo "$ENV_CONTEXT"
-
 
 jobs:
   build:
