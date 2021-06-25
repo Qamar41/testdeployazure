@@ -10,6 +10,7 @@ on:
   workflow_dispatch:
 env:
   CI: ""
+  run: echo "$ENV_CONTEXT"
 
 
 jobs:
