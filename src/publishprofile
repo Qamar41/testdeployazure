@@ -1,0 +1,12 @@
+<publishData>
+<publishProfile profileName="CRAapp - Web Deploy" publishMethod="MSDeploy" publishUrl="craapp.scm.azurewebsites.net:443" msdeploySite="CRAapp" userName="$CRAapp" userPWD="r8slsEL0tP8zKMKZvfCy3c72cdkpTvEkHeuYzP4xNzCP8HzJwWucYSEJsFH5" destinationAppUrl="http://craapp.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+<databases />
+</publishProfile>
+
+<publishProfile profileName="CRAapp - FTP" publishMethod="FTP" publishUrl="ftp://waws-prod-dm1-209.ftp.azurewebsites.windows.net/site/wwwroot" ftpPassiveMode="True" userName="CRAapp\$CRAapp" userPWD="r8slsEL0tP8zKMKZvfCy3c72cdkpTvEkHeuYzP4xNzCP8HzJwWucYSEJsFH5" destinationAppUrl="http://craapp.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+<databases />
+
+</publishProfile>
+<publishProfile profileName="CRAapp - Zip Deploy" publishMethod="ZipDeploy" publishUrl="craapp.scm.azurewebsites.net:443" userName="$CRAapp" userPWD="r8slsEL0tP8zKMKZvfCy3c72cdkpTvEkHeuYzP4xNzCP8HzJwWucYSEJsFH5" destinationAppUrl="http://craapp.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites"><databases />
+</publishProfile>
+</publishData>
