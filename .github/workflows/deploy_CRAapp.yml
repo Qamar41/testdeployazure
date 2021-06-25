@@ -12,21 +12,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      CI: ""    
     steps:
     - uses: actions/checkout@v2
 
     - name: Set up Node.js version
-      env:
-          CI: ""
-          ENV_CONTEXT: ${{ toJson(env) }}    
+    
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
       
     - name: npm install, build, and test
       run: |
-        run: echo "$ENV_CONTEXT"
+        run: echo 'Akif bhai there'  
+        run: echo ${{env.CI}}
         npm install
         npm run build --if-present
         npm run test --if-present
