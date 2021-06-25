@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'clientcustomorder'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a47d7edd7490473e84c115e1c9259dad }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
         package: .
