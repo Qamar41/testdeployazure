@@ -4,7 +4,7 @@ on:
     - deploy
 
 jobs:
-  build-and-deploy:
+  build-and-deployed:
     name:Build and Deploy to azure
 
     runs-on: ubuntu-latest
